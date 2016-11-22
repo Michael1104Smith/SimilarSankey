@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
+}
+body,
+text{
+	font-family: 'OpenSans' !important;
+}
+#chart{
+	width: 1600px;
+	height: 777px;
+	background-color: #f3f3f5;
+	margin: 50px auto;
+}
+
+path {
+  fill: #0086e0;
+  opacity: 0.3;
+}
+.pane{
+	fill: #fff;
+	stroke: #fff;
+	opacity: 0.4;
+}
+.conversion_str,
+.value_pane{
+	fill: #1ab394;
+	stroke: #1ab394;
+	stroke-width: 0px;
+}
+.man_str{
+	font-size: 15px;
+	fill: #fff;
+}
+.conversion_str{
+	font-weight: bold;
+}
+.value_reduce_pane{
+	fill: #dedede;
+	stroke: #dedede;
+	stroke-width: 0px;
+}
+.interaction_line{
+	stroke: #f3f3f5;
+	stroke-width: 2px;
+}
+.white_text{
+	fill: #fff;
+}
+.radius_rect{
+	fill: #f8bcc2;
+}
+@media (max-width: 1599px){
+	#chart{
+		width: 1200px;
+		height: 583px;
+	}
+	.man_str{
+		font-size: 11px;
+	}
+}
+@media (max-width: 1199px){
+	#chart{
+		width: 1000px;
+		height: 486px;
+	}
+	.man_str{
+		font-size: 9px;
+	}
+}
+@media (max-width: 999px){
+	#chart{
+		width: 768px;
+		height: 373px;
+	}
+	.man_str{
+		font-size: 8px;
+	}
+}
+.man_str{
+	font-size: 8px;
+}
+.interaction_str{
+	font-size: 12px;
+}
